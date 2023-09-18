@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    display: block;
 }
 .container{
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: block;
 }
@@ -17,6 +21,7 @@ header{
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     overflow: hidden;
     padding-bottom: 15px;
+    display: block;
 }
 .logo, nav{
     width: 50%;
@@ -37,4 +42,131 @@ header nav ul li a{
     color: #3b506c;
     font-weight: 600;
     font-size: 25px;
+}
+
+/* Hero section style */
+.hero .content{
+    text-align: center;
+}
+.hero h1 , .hero p{
+    color: #3b506c;
+}
+.hero h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+.hero .highlight{
+    color: #0c66ff;
+}
+.hero p{
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: 600;
+}
+.hero .banner img{
+    margin-top: 70px;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.complete-project .col-2{
+    width: 48%;
+    float: left;
+    margin-top: 70px;
+}
+.complete-project .col-2:first-child{
+    text-align: right;
+}
+.complete-project .col-2:first-child h1{
+    font-size: 50px;
+    color: red;
+    margin-bottom: 50px;
+}
+.complete-project .col-2:first-child p{
+    color: #3b506c;
+    font-size: 25px;
+    font-weight: 600;
+}
+.complete-project .col-2:last-child{
+    text-align: left;
+    margin-left: 50px;
+    color: #3b506c;
+    font-size: 35px;
+}
+.posts-section{
+    display: block;
+}
+.posts-section .col-3{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    background-color: #e1f0e1;
+    margin-left: 70px;
+    text-align: left;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    transition: .3s all ease;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.posts-section .col-3 img{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+.posts-section .col-3 p{
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+    color: #3b506c;
+    font-size: 18px;
+}
+.posts-section .col-3 h3{
+    width: 90%;
+    margin: auto;
+    display: block;
+    color: #3b506c;
+    font-weight: bold;
+    font-size: 25px;
+}
+.posts-section .col-3:first-child{
+    background-color: rgba(255, 0, 0, 0.103);
+    margin-left: 0px;
+}
+.posts-section .col-3:last-child{
+    background-color: #FFFFDA;
+}
+.posts-section .col-3:hover{
+    background-color: #FFFFDA;
+}
+.posts-section .col-3:last-child:hover{
+    background-color: rgba(255, 0, 0, 0.103);
+}
+
+footer{
+    background-color: #EEEEEE;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+footer .col-4{
+    width: 23%;
+    float: left;
+    padding: 50px 0;
+    color: #3b506c;
+}
+footer .col-4 h2{
+    font-size: 25px;
+}
+footer .col-4 ul{
+    list-style: none;
+    margin-top: 30px;
+}
+footer .col-4 ul li{
+    font-size: 20px;
+    cursor: pointer;
 }
