@@ -17,11 +17,13 @@ section{
 /* text color: #3b506c */
 header{
     width: 100%;
-    margin: 25px 0;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     overflow: hidden;
-    padding-bottom: 15px;
+    padding: 15px 0;
     display: block;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
 }
 .logo, nav{
     width: 50%;
@@ -45,6 +47,9 @@ header nav ul li a{
 }
 
 /* Hero section style */
+.hero{
+    margin-top: 100px;
+}
 .hero .content{
     text-align: center;
 }
