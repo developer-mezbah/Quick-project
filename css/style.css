@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+/* The style of header section */
+/* logo color: #0c66ff */
+/* text color: #3b506c */
+header{
+    width: 100%;
+    margin: 25px 0;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.logo, nav{
+    width: 50%;
+    float: left;
+}
+header nav ul{
+    text-align: right;
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+    text-align: right;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #3b506c;
+    font-weight: 600;
+    font-size: 25px;
+}
