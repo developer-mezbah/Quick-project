@@ -85,9 +85,13 @@ header nav ul li a:hover{
     margin: auto;
     display: block;
 }
+
+/* Complete ptoject style */
+.all-c-project{
+    display: flex;
+    gap: 50px;
+}
 .complete-project .col-2{
-    width: 48%;
-    float: left;
     margin-top: 70px;
 }
 .complete-project .col-2:first-child{
@@ -105,19 +109,21 @@ header nav ul li a:hover{
 }
 .complete-project .col-2:last-child{
     text-align: left;
-    margin-left: 50px;
     color: #3b506c;
     font-size: 35px;
+}
+
+/* Posts style */
+.all-posts{
+    display: flex;
+    gap: 30px;
 }
 .posts-section{
     display: block;
 }
 .posts-section .col-3{
-    width: 30%;
-    float: left;
     overflow: hidden;
     background-color: #e1f0e1;
-    margin-left: 70px;
     text-align: left;
     padding-bottom: 50px;
     border-radius: 20px;
@@ -127,13 +133,15 @@ header nav ul li a:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .posts-section .col-3 img{
-    height: 400px;
+    height: 250px;
     width: 90%;
     margin: auto;
     text-align: center;
     display: block;
     transition: .3s all ease;
     z-index: -1;
+    margin: 50px auto;
+
 }
 .posts-section .col-3:hover > img{
     filter: grayscale(100%)
@@ -168,6 +176,11 @@ header nav ul li a:hover{
     background-color: rgba(255, 0, 0, 0.103);
 }
 
+/* Footer style */
+.all-footer-item{
+    display: flex;
+    justify-content: space-around;
+}
 footer{
     background-color: #EEEEEE;
     overflow: hidden;
@@ -175,8 +188,6 @@ footer{
     display: block;
 }
 footer .col-4{
-    width: 23%;
-    float: left;
     padding: 50px 0;
     color: #3b506c;
 }
@@ -228,6 +239,11 @@ footer .col-4 ul li{
     justify-content: space-between;
     padding-top: 150px;
 }
+
+/* Hero section style */
+.all-hero{
+    display: flex;
+}
 .hero-col-2{
     width: 100%;
 }
@@ -242,12 +258,16 @@ footer .col-4 ul li{
     -webkit-text-fill-color: transparent;
 }
 .hero-col-2 img{
-    width: 75%;
+    width: 85%;
 }
 .hero-col-2 p{
     color: #3b506c;
     font-size: 23px;
 }
+
+
+
+/* protfolio btn style */
 
 .btns{
     display: flex;
