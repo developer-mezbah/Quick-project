@@ -217,3 +217,66 @@ footer .col-4 ul li{
   .active a{
     color: #0c66ff;
   }
+
+
+.portfolio{
+    background-color: #EDEEF0;
+}
+.portfolio-col-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.hero-col-2{
+    width: 100%;
+}
+.hero-col-2 h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #3b506c;
+}
+.hero-col-2 span{
+    background: linear-gradient(to left, #E76491, #FF9A52 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-col-2 img{
+    width: 75%;
+}
+.hero-col-2 p{
+    color: #3b506c;
+    font-size: 23px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0px;
+}
+.btns button{
+    padding: 20px 40px;
+    border: 1px solid #3b506c;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #3b506c;
+    transition: .3s all;
+    overflow: hidden;
+}
+.btns button:first-child{
+    background: linear-gradient(to left, #B16CEA, #EF6183, #FFA34D);
+    color: #fff;
+    border: 1px solid transparent;
+}
+.btns button:last-child:hover{
+    background: linear-gradient(to left, #B16CEA, #EF6183, #FFA34D);
+    color: #fff;
+    border: 1px solid transparent;
+}
+.btns button:first-child:hover{
+    background: #EDEEF0;
+    color: #3b506c;
+    border: 1px solid #3b506c;
+}
