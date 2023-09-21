@@ -37,8 +37,8 @@
     }
 
     .btns button {
-        padding: 15px 10px;
-        font-size: 14px;
+        padding: 8px !important;
+        font-size: 10px !important;
     }
 
     .hero h1 {
@@ -107,7 +107,8 @@
     footer .col-4 {
         padding-top: 35px;
     }
-        footer .col-4 {
+
+    footer .col-4 {
         padding-top: 30px;
         padding-bottom: 0;
     }
@@ -139,6 +140,10 @@
     }
 
     /* protfolio section */
+       .btns button {
+        padding: 10px !important;
+        font-size: 15px !important;
+    }
     .portfolio-col-2 {
         display: flex;
         flex-wrap: wrap;
@@ -228,7 +233,8 @@
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
     }
-        footer .col-4 {
+
+    footer .col-4 {
         padding-top: 30px;
         padding-bottom: 0;
     }
@@ -353,10 +359,11 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
+
     footer .col-4 {
-    padding-top: 30px;
-    padding-bottom: 0;
-}
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
 }
 
 
