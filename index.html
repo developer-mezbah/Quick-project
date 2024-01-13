@@ -1,157 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quick-project</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+  </head>
 
-<body>
+  <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!-- This is header section -->
     <section>
-        <header>
-            <div class="container">
-                <div class="logo">
-                    <img src="images/logo.svg" alt="">
-                </div>
-                <nav>
-                    <ul>
-                        <li class="list"><a href="#home">Home</a></li>
-                        <li class="list"><a href="#about-us">About us</a></li>
-                        <li class="list"><a href="#contact">Contact</a></li>
-                        <li class="list"><a href="#service">Service</a></li>
-                        <li class="list"><a href="#blogs">Blogs</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <nav>
+            <ul>
+              <li class="list"><a href="#home">Home</a></li>
+              <li class="list"><a href="#about-us">About us</a></li>
+              <li class="list"><a href="#contact">Contact</a></li>
+              <li class="list"><a href="#service">Service</a></li>
+              <li class="list"><a href="#blogs">Blogs</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     </section>
     <!-- portfolio section -->
     <section class="portfolio" id="home">
-        <div class="container portfolio-col-2">
-            <div class="hero-col-2">
-                <h1>Hello, <span>I'm Mezbah,</span> <br> ui/ux designer <br> based in The BANGLADESH.</h1>
-                <p>I am a freelancer ui ux designer with experiennce of 2 years. In this 2 years i have worked so many companies & startups</p>
-                <div class="btns">
-                    <button>GET IN TOUCH</button>
-                    <button>VIEW ALL WORKS</button>
-                </div>
-            </div>
-            <div class="hero-col-2">
-                <img src="images/portfolio.png" alt="">
-            </div>
+      <div class="container portfolio-col-2">
+        <div class="hero-col-2">
+          <h1>
+            Hello, <span>I'm Mezbah,</span> <br />
+            Full stack web developer in BANGLADESH.
+          </h1>
+          <p>
+            I am a Full stack web devloper with experiennce of 2 years. In this
+            2 years i have worked so many Projects & startups
+          </p>
+          <div class="btns">
+            <button>GET IN TOUCH</button>
+            <button>VIEW ALL WORKS</button>
+          </div>
+        </div>
+        <div class="hero-col-2 slider-thumb">
+          <!-- <img
+            src="https://res.cloudinary.com/de4xozulb/image/upload/v1704000539/Profile%20Pictures/h2behzdsb67kmqy1lvon.png"
+            alt=""
+          /> -->
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="featured">
+        <div class="">
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JAVASCRIPT</button>
+            <button>PRISMA</button>
+            <button>NEXT.JS</button>
+            <button>NEXT.AUTH</button>
+            <button>MERN</button>
+            <button>MONGDB</button>
+            <button>ORACLE</button>
+            <button>FIREBASE</button>
+            <button>NINZA</button>
+            <button>MIDDLEWARE</button>
+            <button>NEXT.AUTH</button>
+            <button>MERN</button>
+            <button>MONGDB</button>
+        </div>
+        <div>
+            <button>MIDDLEWARE</button>
+            <button>NINZA</button>
+            <button>MONGDB</button>
+            <button>ORACLE</button>
+            <button>FIREBASE</button>
+            <button>NEXT.JS</button>
+            <button>NEXT.AUTH</button>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JAVASCRIPT</button>
+            <button>NEXT.JS</button>
+            <button>NEXT.AUTH</button>
+            <button>NEXT.AUTH</button>
+            <button>HTML</button>
+            <button>CSS</button>
         </div>
     </section>
+
     <!-- This is hero section -->
     <section class="hero" id="about-us">
-        <div class="container">
-            <div class="content">
-                <h1>It's Time To Amplify Your
-                    <br>
-                    <span class="highlight">Online Business</span>
-                </h1>
-                <p>This is website created by eshikon.com and owner is ali Sharif</p>
-            </div>
-            <div class="banner">
-                <img src="images/banner.svg" alt="">
-            </div>
+      <div class="container">
+        <div class="content">
+          <h1>
+            It's Time To Amplify Your
+            <br />
+            <span class="highlight">Online Business</span>
+          </h1>
+          <p>This is website created by eshikon.com and owner is ali Sharif</p>
         </div>
+        <div class="banner">
+          <img class="image-animation" src="images/banner.svg" alt="" />
+        </div>
+      </div>
     </section>
 
     <!-- Completed project section -->
     <section class="complete-project" id="service">
-        <div class="container all-c-project">
-            <div class="col-2">
-                <h1>3K</h1>
-                <p>Dolor sit, amet consectetur adipisicing elit. Ea eaque obcaecati <br> consequuntur modi, blanditiis
-                    doloremque?</p>
-            </div>
-            <div class="col-2">
-                <h1>Successfully <br>
-                    completed project <br>
-                    and idea</h1>
-            </div>
+      <div class="container all-c-project">
+        <div class="col-2">
+          <h1>3K</h1>
+          <p>
+            Dolor sit, amet consectetur adipisicing elit. Ea eaque obcaecati
+            <br />
+            consequuntur modi, blanditiis doloremque?
+          </p>
         </div>
+        <div class="col-2">
+          <h1>
+            Successfully <br />
+            completed project <br />
+            and idea
+          </h1>
+        </div>
+      </div>
     </section>
     <!-- Posts section -->
     <section class="posts-section" id="blogs">
-        <div class="container all-posts">
-            <div class="col-3">
-                <img src="images/post-1.svg" alt="">
-                <h3>Unless your creativity</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, perspiciatis. Perspiciatis eveniet
-                    ipsam ullam error dolor soluta, voluptatibus blanditiis pariatur consectetur, iure aut porro
-                    quibusdam! Dolorem distinctio impedit fuga</p>
-            </div>
-            <div class="col-3">
-                <img src="images/post-2.svg" alt="">
-                <h3>Get More Result</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, perspiciatis. Perspiciatis eveniet
-                    ipsam ullam error dolor soluta, voluptatibus blanditiis pariatur consectetur, iure aut porro
-                    quibusdam! Dolorem distinctio impedit fuga</p>
-            </div>
-            <div class="col-3">
-                <img src="images/post-3.svg" alt="">
-                <h3>Increase you Audience</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, perspiciatis. Perspiciatis eveniet
-                    ipsam ullam error dolor soluta, voluptatibus blanditiis pariatur consectetur, iure aut porro
-                    quibusdam! Dolorem distinctio impedit fuga</p>
-            </div>
+      <div class="container all-posts">
+        <div class="col-3">
+          <img src="images/post-1.svg" alt="" />
+          <h3>Unless your creativity</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+            perspiciatis. Perspiciatis eveniet ipsam ullam error dolor soluta,
+            voluptatibus blanditiis pariatur consectetur, iure aut porro
+            quibusdam! Dolorem distinctio impedit fuga
+          </p>
         </div>
+        <div class="col-3">
+          <img src="images/post-2.svg" alt="" />
+          <h3>Get More Result</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+            perspiciatis. Perspiciatis eveniet ipsam ullam error dolor soluta,
+            voluptatibus blanditiis pariatur consectetur, iure aut porro
+            quibusdam! Dolorem distinctio impedit fuga
+          </p>
+        </div>
+        <div class="col-3">
+          <img src="images/post-3.svg" alt="" />
+          <h3>Increase you Audience</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+            perspiciatis. Perspiciatis eveniet ipsam ullam error dolor soluta,
+            voluptatibus blanditiis pariatur consectetur, iure aut porro
+            quibusdam! Dolorem distinctio impedit fuga
+          </p>
+        </div>
+      </div>
     </section>
     <!-- Footer section -->
 
     <section>
-        <footer>
-            <div class="container all-footer-item">
-                <div class="col-4">
-                    <h2>Address</h2>
-                    <ul>
-                        <li>Nator</li>
-                        <li>Dhanmondi</li>
-                        <li>Borisal</li>
-                        <li>Rajshahi</li>
-                        <li>Dhaka</li>
-                    </ul>
-                </div>
-                <div class="col-4" id="contact">
-                    <h2>Contact</h2>
-                    <ul>
-                        <li>Phone: 01707954201</li>
-                        <li>Teliphobne</li>
-                        <li>Email: developer.mezbah@gmail.com</li>
-                        <li><a href="https://www.facebook.com/mezbah.uddin.99">Facebook</a></li>
-                        <li>Twitter</li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <h2>Terms ans condition</h2>
-                    <ul>
-                        <li>Rules </li>
-                        <li>Privecy</li>
-                        <li>Ploicy</li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <h2>Link to connect</h2>
-                    <ul>
-                        <li>Website</li>
-                        <li>Facebook</li>
-                        <li>Youtube</li>
-                        <li>Address</li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+      <footer>
+        <div class="container all-footer-item">
+          <div class="col-4">
+            <h2>Address</h2>
+            <ul>
+              <li>Nator</li>
+              <li>Dhanmondi</li>
+              <li>Borisal</li>
+              <li>Rajshahi</li>
+              <li>Dhaka</li>
+            </ul>
+          </div>
+          <div class="col-4" id="contact">
+            <h2>Contact</h2>
+            <ul>
+              <li>Phone: 01707954201</li>
+              <li>Teliphobne</li>
+              <li>Email: developer.mezbah@gmail.com</li>
+              <li>
+                <a href="https://www.facebook.com/mezbah.uddin.99">Facebook</a>
+              </li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h2>Terms ans condition</h2>
+            <ul>
+              <li>Rules</li>
+              <li>Privecy</li>
+              <li>Ploicy</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h2>Link to connect</h2>
+            <ul>
+              <li>Website</li>
+              <li>Facebook</li>
+              <li>Youtube</li>
+              <li>Address</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </section>
-
-
     <script src="js/navBarActive.js"></script>
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
