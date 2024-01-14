@@ -153,6 +153,7 @@
 
     .portfolio {
         margin-top: 20px;
+        height: max-content;
     }
 
     .portfolio h1 {
@@ -238,6 +239,13 @@
         padding-top: 30px;
         padding-bottom: 0;
     }
+    footer{
+        margin-top: 40px;
+    }
+    .slider-thumb::before{
+        width: 350px;
+        height: 350px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -274,6 +282,7 @@
 
     .portfolio {
         margin-top: 0px;
+        height: max-content;
     }
 
     .portfolio h1 {
@@ -359,7 +368,9 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
-
+    footer{
+        margin-top: 20px;
+    }
     footer .col-4 {
         padding-top: 30px;
         padding-bottom: 0;

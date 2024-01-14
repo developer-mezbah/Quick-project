@@ -10,14 +10,12 @@ a {
 }
 html {
   scroll-behavior: smooth;
+  width: 100vw;
+  overflow-x: hidden;
 }
 section {
   display: block;
   width: 100wh;
-}
-body{
-  width: 100vw;
-  overflow-x: hidden;
 }
 .container {
   width: 85%;
@@ -25,9 +23,9 @@ body{
   display: block;
 }
 header {
-  width: 100%;
+  width: 100vw;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 15px 0;
   display: block;
   position: fixed;
@@ -412,7 +410,7 @@ footer .col-4 ul li {
 }
 .scroll-watcher > div {
   background-color: #0c66ff;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   scale: 0 1;
   transform-origin: left; /*  Creted new animation when this line disable */
